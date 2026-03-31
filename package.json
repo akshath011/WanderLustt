@@ -2,6 +2,9 @@
   "engines": {
     "node": "24.11.1"
   },
+
+
+  
   "name": "project01",
   "version": "1.0.0",
   "description": "",
@@ -12,7 +15,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.16.2",
     "cloudinary": "^2.9.0",
