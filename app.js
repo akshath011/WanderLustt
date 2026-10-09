@@ -122,6 +122,10 @@ app.use((req,res,next) => {
 //     res.send(registeredUser);
 // });
 
+// Redirect root URL to the listings page
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+});
 
 
 app.use("/listings", listingROuter); 
